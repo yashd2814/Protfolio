@@ -899,6 +899,18 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+        }
     </style>
 </head>
 
@@ -935,10 +947,7 @@
         </div>
     </section>
 
-    @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(10px); }
-    }
+
 
     <!-- Featured Projects -->
     <section class="featured-projects" id="projects">
@@ -1060,8 +1069,10 @@
                     passionate about combining technical depth with business acumen to create products that matter.
                 </p>
                 <p style="color: var(--gray); line-height: 1.8;">
-                    When I'm not building products, I'm exploring no-code tools, studying full-stack development.
-                    I believe in continuous learning and pushing the boundaries of what's possible with technology.
+                    When I'm not building products, I'm exploring no-code tools, continuously learning and
+                    experimenting with the intersection of AI and automation, aiming to create tools that empower
+                    teams to work smarter, not harder.I believe in continuous learning and pushing the boundaries of
+                    what's possible with technology.
                 </p>
             </div>
         </div>
